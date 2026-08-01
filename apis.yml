@@ -1,8 +1,31 @@
 aid: pirislabs
-name: Pirislabs
-description: Pirislabs is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Piris Labs
+description: >-
+  Piris Labs is a Y Combinator (W2026) deep-tech startup building the networking
+  layer for AI. The company develops proprietary photonic interconnect
+  technology paired with a vertically optimized software stack that moves data
+  between AI accelerators at ultra-low latency, targeting the bottleneck where up
+  to 80% of advanced AI compute sits idle waiting on slow networking. Piris Labs
+  couples this optical fabric with a full-stack, low-latency inference offering
+  and has reported some of the fastest inference speeds for large frontier
+  models. Founded in San Francisco by Ali Khalatpour (CEO) and Keyvan Moghadam
+  (President), the company currently exposes no public, documented developer API
+  or SDK — its product is delivered as hardware plus a hosted inference stack
+  behind an early-access waitlist. This profile tracks Piris Labs' identity in
+  the API Evangelist network and any future API surface it publishes.
 url: https://raw.githubusercontent.com/api-evangelist/pirislabs/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pirislabs.io/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +34,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Inference
+- Networking
+- Photonics
+- Interconnect
+- AI Infrastructure
+- GPU Compute
+- Low Latency
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/pirislabs-domain-security.yml
+- type: Website
+  url: https://pirislabs.io/
+- type: Blog
+  url: https://pirislabs.io/news
+- type: Support
+  url: https://pirislabs.io/contact
+- type: SignUp
+  url: https://pirislabs.io/early-access
+- type: Careers
+  url: https://pirislabs.io/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/110912035
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
